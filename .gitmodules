@@ -4,3 +4,12 @@
 [submodule "uter\\DWindows-Audio-Roependency"]
 	path = uter\\DWindows-Audio-Roependency
 	url = https://github.com/ocornut/imgui.git
+[submodule "Windows-Audio-Router\\Dependency"]
+	path = Windows-Audio-Router\\Dependency
+	url = https://github.com/ocornut/imgui.git
+[submodule "Dependency\\ImGui"]
+	path = Dependency\\ImGui
+	url = https://github.com/ocornut/imgui.git
+[submodule "Dependency/ImGui"]
+	path = Dependency/ImGui
+	url = https://github.com/ocornut/imgui.git
