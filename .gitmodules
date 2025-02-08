@@ -1,0 +1,12 @@
+[submodule "Dependency/rtaudio"]
+	path = Dependency/rtaudio
+	url = https://github.com/thestk/rtaudio.git
+[submodule "Dependency/imgui-node"]
+	path = Dependency/imgui-node
+	url = https://github.com/thedmd/imgui-node-editor.git
+[submodule "Dependency/imgui"]
+	path = Dependency/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "Dependency/imgui-knobs"]
+	path = Dependency/imgui-knobs
+	url = https://github.com/altschuler/imgui-knobs.git
