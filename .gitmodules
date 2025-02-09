@@ -10,3 +10,6 @@
 [submodule "Dependency/imgui-knobs"]
 	path = Dependency/imgui-knobs
 	url = https://github.com/altschuler/imgui-knobs.git
+[submodule "Dependency/SDL3"]
+	path = Dependency/SDL3
+	url = https://github.com/libsdl-org/SDL
