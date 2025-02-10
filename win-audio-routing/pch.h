@@ -11,6 +11,10 @@
 #include <stdlib.h>
 #include <vector>
 #include <map>
+#include <mutex>
+#include <guiddef.h>
+#include <mfapi.h>
+#include <shlobj.h>
 //SDL3
 #include "SDL3/SDL.h"
 #include <SDL3/SDL_opengl.h>
@@ -27,6 +31,16 @@
 #include <functiondiscoverykeys.h>
 #include <strsafe.h>
 #include "audiopolicy.h"
-
+#include "audioclient.h"
+#include "Audiosessiontypes.h"
+#include "endpointvolume.h"
+#include <audioclientactivationparams.h>
+#include <wrl\implements.h>
+//#include <wil\com.h>
+//#include <wil\result.h>
+//WINDOWS MISC
+#include <windows.h>
+#include <psapi.h>
+#include <initguid.h>
 
 #endif //PCH_H

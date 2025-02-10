@@ -11,6 +11,8 @@ public:
 	AudioManager();
 	~AudioManager();
 	void updateEndpoint();
+	bool createSession(AudioDevice* device);
+	std::map<int, std::string> getActiveProcess();
 
 private:
 	IMMDeviceEnumerator* pEnumerator = NULL;

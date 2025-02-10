@@ -120,7 +120,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);WIN32;__WINDOWS_DS__</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\Dependency\imgui\backends;$(ProjectDir);$(ProjectDir)NodeEditorWidget;$(ProjectDir)AudioSession;$(ProjectDir)AudioDevice;$(ProjectDir)AudioManager;$(ProjectDir)WidgetControl;$(ProjectDir)ControllerAudioRouting;$(ProjectDir)ModelAudioRouting;$(ProjectDir)GraphicEngine;$(ProjectDir)..\Dependency\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Dependency\imgui\backends;$(ProjectDir);$(ProjectDir)AudioProcess;$(ProjectDir)NodeEditorWidget;$(ProjectDir)AudioSession;$(ProjectDir)AudioDevice;$(ProjectDir)AudioManager;$(ProjectDir)WidgetControl;$(ProjectDir)ControllerAudioRouting;$(ProjectDir)ModelAudioRouting;$(ProjectDir)GraphicEngine;$(ProjectDir)..\Dependency\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -137,7 +137,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);WIN32;__WINDOWS_DS__</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\Dependency\imgui\backends;$(ProjectDir);$(ProjectDir)NodeEditorWidget;$(ProjectDir)AudioSession;$(ProjectDir)AudioDevice;$(ProjectDir)AudioManager;$(ProjectDir)WidgetControl;$(ProjectDir)ControllerAudioRouting;$(ProjectDir)ModelAudioRouting;$(ProjectDir)GraphicEngine;$(ProjectDir)..\Dependency\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Dependency\imgui\backends;$(ProjectDir);$(ProjectDir)AudioProcess;$(ProjectDir)NodeEditorWidget;$(ProjectDir)AudioSession;$(ProjectDir)AudioDevice;$(ProjectDir)AudioManager;$(ProjectDir)WidgetControl;$(ProjectDir)ControllerAudioRouting;$(ProjectDir)ModelAudioRouting;$(ProjectDir)GraphicEngine;$(ProjectDir)..\Dependency\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -158,6 +158,7 @@
     <ClCompile Include="..\Dependency\imgui\imgui_widgets.cpp" />
     <ClCompile Include="AudioDevice\AudioDevice.cpp" />
     <ClCompile Include="AudioManager\AudioManager.cpp" />
+    <ClCompile Include="AudioProcess\AudioProcess.cpp" />
     <ClCompile Include="AudioSession\AudioSession.cpp" />
     <ClCompile Include="ControllerAudioRouting\ControllerAudioRouting.cpp" />
     <ClCompile Include="GraphicEngine\graphicEngine.cpp" />
@@ -179,6 +180,7 @@
     <ClInclude Include="..\Dependency\imgui\imstb_truetype.h" />
     <ClInclude Include="AudioDevice\AudioDevice.h" />
     <ClInclude Include="AudioManager\AudioManager.h" />
+    <ClInclude Include="AudioProcess\AudioProcess.h" />
     <ClInclude Include="AudioSession\AudioSession.h" />
     <ClInclude Include="ControllerAudioRouting\ControllerAudioRouting.h" />
     <ClInclude Include="GraphicEngine\graphicEngine.h" />

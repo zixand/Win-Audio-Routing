@@ -43,6 +43,9 @@
     <Filter Include="File di origine\AudioSession">
       <UniqueIdentifier>{aec80d1e-e3f1-4518-b347-dd1bab9acedb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="File di origine\AudioProcess">
+      <UniqueIdentifier>{7d6a4a2a-1a39-40de-995d-79a4135b57c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="win-audio-routing.cpp">
@@ -92,6 +95,9 @@
     </ClCompile>
     <ClCompile Include="AudioSession\AudioSession.cpp">
       <Filter>File di origine\AudioSession</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioProcess\AudioProcess.cpp">
+      <Filter>File di origine\AudioProcess</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +154,9 @@
     </ClInclude>
     <ClInclude Include="AudioSession\AudioSession.h">
       <Filter>File di origine\AudioSession</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioProcess\AudioProcess.h">
+      <Filter>File di origine\AudioProcess</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

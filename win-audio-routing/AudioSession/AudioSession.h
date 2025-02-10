@@ -10,8 +10,9 @@ public:
 	~AudioSession();
 	IAudioSessionControl* getAudioSessionControl();
 	int getProcessPid();
+	AudioSessionState getSessionState();
 	AudioDevice* getDevice();
-
+	std::string getSessionIdentifier();
 
 private:
 

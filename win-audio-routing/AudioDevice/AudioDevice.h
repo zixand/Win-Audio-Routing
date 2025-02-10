@@ -14,6 +14,7 @@ public:
 	~AudioDevice();
 	std::string getFriendlyName();
 	IMMDevice* getEndpoit();
+	wchar_t* getSessionIdentifier();
 
 private:
 	IMMDevice* endpoint = NULL;

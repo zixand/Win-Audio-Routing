@@ -59,3 +59,21 @@ IMMDevice* AudioDevice::getEndpoit() {
 	return this->endpoint;
 }
 
+wchar_t* AudioDevice::getSessionIdentifier() {
+
+	HRESULT hr = NULL;
+	LPWSTR name = NULL;
+	wchar_t* deviceId;
+
+	IPropertyStore* propertyStore;
+	hr = this->endpoint->GetId(&deviceId);
+	if (FAILED(hr))
+	{
+		printf("Unable to retrieve device id: %x\n", hr);
+		return NULL;
+	}
+
+	return deviceId;
+
+
+}
