@@ -1,6 +1,3 @@
-[submodule "Dependency/rtaudio"]
-	path = Dependency/rtaudio
-	url = https://github.com/thestk/rtaudio.git
 [submodule "Dependency/imgui-node"]
 	path = Dependency/imgui-node
 	url = https://github.com/thedmd/imgui-node-editor.git

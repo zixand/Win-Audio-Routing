@@ -19,6 +19,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="File di origine\GraphicEngine">
+      <UniqueIdentifier>{bfb1a117-60e8-4357-baa7-af2c9b86f8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\WidgetControl">
+      <UniqueIdentifier>{9c089f0b-f885-4ceb-b690-9368053c0068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\NodeEditorWidget">
+      <UniqueIdentifier>{7858873e-4d09-4feb-b7f0-d64c29d7e03c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\ControllerAudioRouting">
+      <UniqueIdentifier>{a2c4c606-f80d-4c2c-baaf-43c2e9662978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\ModelAudioRouting">
+      <UniqueIdentifier>{29acd7ef-e639-4144-b693-bb251aab0285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\AudioManager">
+      <UniqueIdentifier>{0e5ceb99-9d8b-4b5e-a7f5-6fd4c75d77fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\AudioDevice">
+      <UniqueIdentifier>{b7b4c38b-5b79-4c78-8eca-81d00ea02128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\AudioSession">
+      <UniqueIdentifier>{aec80d1e-e3f1-4518-b347-dd1bab9acedb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="win-audio-routing.cpp">
@@ -45,6 +69,30 @@
     <ClCompile Include="..\Dependency\imgui\backends\imgui_impl_sdl3.cpp">
       <Filter>File di origine\ImGui\opengl3</Filter>
     </ClCompile>
+    <ClCompile Include="GraphicEngine\graphicEngine.cpp">
+      <Filter>File di origine\GraphicEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeEditorWidget\NodeEditorWidget.cpp">
+      <Filter>File di origine\NodeEditorWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgetControl\WidgetControl.cpp">
+      <Filter>File di origine\WidgetControl</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerAudioRouting\ControllerAudioRouting.cpp">
+      <Filter>File di origine\ControllerAudioRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelAudioRouting\ModelAudioRouting.cpp">
+      <Filter>File di origine\ModelAudioRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager\AudioManager.cpp">
+      <Filter>File di origine\AudioManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioDevice\AudioDevice.cpp">
+      <Filter>File di origine\AudioDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSession\AudioSession.cpp">
+      <Filter>File di origine\AudioSession</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Dependency\imgui\imgui.h">
@@ -70,6 +118,36 @@
     </ClInclude>
     <ClInclude Include="..\Dependency\imgui\backends\imgui_impl_sdl3.h">
       <Filter>File di origine\ImGui\opengl3</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicEngine\graphicEngine.h">
+      <Filter>File di origine\GraphicEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="win-audio-routing.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="WidgetControl\WidgetControl.h">
+      <Filter>File di origine\WidgetControl</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeEditorWidget\NodeEditorWidget.h">
+      <Filter>File di origine\NodeEditorWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerAudioRouting\ControllerAudioRouting.h">
+      <Filter>File di origine\ControllerAudioRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAudioRouting\ModelAudioRouting.h">
+      <Filter>File di origine\ModelAudioRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager\AudioManager.h">
+      <Filter>File di origine\AudioManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioDevice\AudioDevice.h">
+      <Filter>File di origine\AudioDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSession\AudioSession.h">
+      <Filter>File di origine\AudioSession</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
